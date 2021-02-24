@@ -1,0 +1,121 @@
+/* header */
+*{
+    font-family: Montserrat;
+}
+.navbar_bg{
+    background-color:  white;
+    /* z-index: 9999; */
+    box-shadow: 0px 0px 4px gray !important;
+    position: relative;
+
+}
+.cart{
+    margin: 0px  30px ;
+}
+.cart img{
+    height: 30px;
+    width: auto;
+}
+.login{
+    width: 100px;
+    color: #94b830;
+    background: none;
+    border: 1px solid #3a3a3a;
+    font-size: 13px;
+    margin: 5px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.login:hover{
+    background-color: #94b830;
+    border: 1px solid #6a6a6a00;
+    color: white;
+}
+.login:focus{
+   outline: unset;
+}
+.login:focus{
+    box-shadow: unset !important;
+}
+.signup{
+    /* width: 120px; */
+    color: white;
+    background: none;
+    background:  #94b830;
+    border: none;
+    font-size: 13px;
+    margin: 5px;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 1px solid #6a6a6a00;
+}
+.signup:hover{
+    background-color: white;
+    border: 1px solid  #94b830;
+    color: #94b830;
+}
+.signup:focus{
+    box-shadow: unset !important;
+}
+.prod_add{
+    background-color:#bbdd5ef0; 
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: wrap;
+    border-radius: 30px;
+    top: 4px;
+    right: -5px;
+}
+.prod_add span{
+    font-size: 12px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.nav_bar_link a{
+    color:black !important;
+    padding: 15px 15px !important;
+    transition: 0.2s ease-in;
+}
+.nav_bar_link a:hover{
+    background-color: #bbdd5e;
+    color:white !important;
+}
+
+.dropdown_hover {
+    position: relative;
+}
+.dropdown_hover ul{
+    border-radius: 0px;
+    border: 0px;
+    background: #ffffffd6;
+}
+.dropdown_hover a{
+    color: black !important;
+    padding: 15px 15px !important;
+    transition:0.2s ease-in-out;
+}
+.dropdown_hover ul li a:hover{
+    background: #94b830;
+    color:white !important;
+}
+.dropdown_hover a + ul{
+    display: none;
+    position: absolute;
+    transition:0.5s ease-in-out;
+    top: 45px;
+}
+.dropdown_hover:hover>a:first-child{
+    color: #94b830 !important;
+}
+.dropdown_hover:hover > ul{
+    display: block;
+}
+
